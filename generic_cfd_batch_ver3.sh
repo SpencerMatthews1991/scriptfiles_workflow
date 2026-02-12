@@ -19,7 +19,7 @@
 ## STEP 4: Email address
 ##
 #PBS -m abe
-#PBS -M spencer.matthews.397@cranfield.ac.uk
+#PBS -M your.namehere.000@email.com
 ##
 ## ====================================
 ## DO NOT CHANGE THE LINES BETWEEN HERE
@@ -47,10 +47,10 @@ FLUENT_NUM_STEPS="1200000"          # Number of iterations/time-steps, or "" (us
 FLUENT_DIMENSION="2ddp"             # 2ddp, 3ddp, 2d, 3d
 
 # Project directory containing case subdirectories
-PROJECT_DIR="NonPorous_NACA0012"
+PROJECT_DIR="your_directory_name_here"
 
 # List of case directories to run
-CASE_DIRS=("AoA0" "AoA1" "AoA2" "AoA3" "AoA4" "AoA5")
+CASE_DIRS=("case1" "case2" "case3" "case4")
 
 # Cores per job
 CORES_PER_JOB=2
